@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+}
+.product-details {
+  margin: 12px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 15px;
+}
+.left-gallery {
+  width: 18%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.right-gallery {
+  width: 80%;
+
+  height: 100%;
+}
+.gallery-item {
+  max-width: 67px;
+  height: 67px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-items {
+  max-width: 292px;
+  height: 292px;
+}
+.gallery-items img {
+  width: 100%;
+  height: 100%;
+}
+.rattings {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 28px;
+}
+
+.star-icon .fa-star {
+  width: 17px;
+  color: #ffb525;
+}
+.review-count {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.review-count span {
+  color: #3f474b;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.review-count p {
+  color: #3f474b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.product-name h2 {
+  color: #141b4d;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 106%;
+  margin-top: 16px;
+}
+.reviewers {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 20px;
+}
+.reviewers img {
+  width: 24px;
+}
+.reviewer-name {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name h4 {
+  color: #141b4d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.reviewer-name p {
+  color: #3f474b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.comments .part1 {
+  color: #3f446c;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-top: 7px;
+}
+.comments .part2 {
+  color: #141b4d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.price-count {
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  gap: 12px;
+}
+.price-count .price {
+  color: #cf1010;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 106%;
+}
+.price-count .decrese {
+  color: #141b4d;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+}
+.price-count .increase {
+  color: #141b4d;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+}
+.price-count .counter {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 106%;
+  color: #141b4d;
+}
+.count-calculate {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.add-to-cart-btn {
+  width: 100%;
+}
+.add-to-cart-btn button {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #1db469;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px;
+  border: none;
+  margin-top: 15px;
+}
