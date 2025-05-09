@@ -17,15 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const productName = "Helio Pet Device";
   const productImage = "/images/product-1.png";
 
-  // Initialize cart from localStorage or empty array
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-  // Load cart when page loads
   if (cart.length > 0) {
     updateCart();
   }
 
-  // Counter buttons with max limit
   decreaseBtn.addEventListener("click", function () {
     if (count > 1) {
       count--;
